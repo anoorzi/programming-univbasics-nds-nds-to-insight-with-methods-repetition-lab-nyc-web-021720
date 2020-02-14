@@ -32,6 +32,7 @@ while count < source.length do
   array.push(source[count])
   count += 1
 end
+array
 end
 
 def total_gross(source)
