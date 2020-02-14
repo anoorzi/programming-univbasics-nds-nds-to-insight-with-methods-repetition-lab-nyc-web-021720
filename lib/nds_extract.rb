@@ -49,7 +49,7 @@ def total_gross(source)
   has = directors_totals(source)
   gross = 0
   count = 0
-  
+
   while count < source.length do
     gross += directors_totals[names[count]]
 
