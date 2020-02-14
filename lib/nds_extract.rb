@@ -55,5 +55,5 @@ def total_gross(source)
 
     count += 1
   end
-
+  gross
 end
