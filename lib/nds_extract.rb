@@ -26,6 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  array = []
+  count = 0
+  while count < source.length do
+    array.push(source[count])
+
+  end
+  array
 end
 
 def total_gross(source)
@@ -39,5 +46,3 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 end
-
-
