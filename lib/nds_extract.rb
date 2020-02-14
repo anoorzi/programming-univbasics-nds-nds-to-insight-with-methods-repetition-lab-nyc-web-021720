@@ -50,7 +50,7 @@ def total_gross(source)
   names = list_of_directors
   has = directors_totals
   while count < source.length do
-
+    gross += directors_totals[names[count]]
 
 
     count += 1
