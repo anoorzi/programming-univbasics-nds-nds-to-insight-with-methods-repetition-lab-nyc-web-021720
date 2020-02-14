@@ -47,8 +47,8 @@ def total_gross(source)
   # return the total
   gross = 0
   count = 0
-  names = list_of_directors
-  has = directors_totals
+  names = list_of_directors(source)
+  has = directors_totals(source)
   while count < source.length do
     gross += directors_totals[names[count]]
 
